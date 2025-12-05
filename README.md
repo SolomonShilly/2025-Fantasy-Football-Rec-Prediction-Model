@@ -81,4 +81,4 @@ The model outputs a ranked list of projected players in CSV format for further a
 ---
 
 ## Goal
-This project demonstrates **data-driven sports analytics**. It serves as both a tool for fantasy football predictions and a portfolio piece highlighting the ability to collect, clean, model, and communicate complex data insights.  
+This project demonstrates **data-driven sports analytics**. It serves as a tool for fantasy football predictions.
