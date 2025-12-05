@@ -81,19 +81,19 @@ model_rec = RandomForestRegressor(n_estimators=50, random_state=42)
 model_rec.fit(X_train_rec, y_train_rec)
 
 # Evaluate
-print("\n📊 Yards Prediction:")
+print("\nYards Prediction:")
 print("MSE:", mean_squared_error(y_test_yds, model_yds.predict(X_test_yds)))
 print("R²:", r2_score(y_test_yds, model_yds.predict(X_test_yds)))
 
-print("📊 Targets Prediction:")
+print("Targets Prediction:")
 print("MSE:", mean_squared_error(y_test_tgts, model_tgts.predict(X_test)))
 print("R²:", r2_score(y_test_tgts, model_tgts.predict(X_test)))
 
-print("\n📊 Receptions Prediction:")
+print("\nReceptions Prediction:")
 print("MSE:", mean_squared_error(y_test_rec, model_rec.predict(X_test_rec)))
 print("R²:", r2_score(y_test_rec, model_rec.predict(X_test_rec)))
 
-print("\n📊 Touchdowns Prediction:")
+print("\nTouchdowns Prediction:")
 print("MSE:", mean_squared_error(y_test_td, model_td.predict(X_test_td)))
 print("R²:", r2_score(y_test_td, model_td.predict(X_test_td)))
 
@@ -128,4 +128,4 @@ df_2025_sorted = df_2025.sort_values(by='projFantasyPts_2025', ascending=False)
 
 # Show top 20
 print(df_2025_sorted[['name_x', 'team', 'projTgts_2025', 'projRec_2025', 'projYds_2025', 'projTD_2025', 'projFantasyPts_2025']].head(20))
-df_2025_sorted[['name_x', 'team', 'projTgts_2025', 'projRec_2025', 'projYds_2025', 'projTD_2025', 'projFantasyPts_2025']].to_csv("Predictions2024_B.csv")
+df_2025_sorted[['name_x', 'team', 'projTgts_2025', 'projRec_2025', 'projYds_2025', 'projTD_2025', 'projFantasyPts_2025']].to_csv("Predictions2024.csv")
