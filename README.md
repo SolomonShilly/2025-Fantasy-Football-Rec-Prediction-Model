@@ -41,7 +41,7 @@ The prediction model uses **Random Forest Regressors** to forecast:
 - Fantasy points (PPR scoring)
 
 Scripts involved:
-- `Recmodel.py` & `RecPred.py` – Train models, evaluate accuracy, and generate 2025 projections.  
+- `RecModel.py` & `RecPred.py` – Train models, evaluate accuracy, and generate 2025 projections.  
 
 **Evaluation Metrics:**
 - Mean Squared Error (MSE)
@@ -75,7 +75,7 @@ The model outputs a ranked list of projected players in CSV format for further a
 2. Install dependencies: `pandas`, `selenium`, `scikit-learn`.
 3. Run `StatsScrapper.py` and `QBInfoScrap.py` to gather data.
 4. Clean and merge datasets with `DataCleaning.py` and `QBDataCleaning.py`.
-5. Train and predict using `RecModel.py` or `RecPred.py`.
+5. Train and predict using `RecModel.py` or `RecPred.py`. ("RecPred.py is recommended)
 6. Analyze output CSV files to view projected rankings and stats.
 
 ---
