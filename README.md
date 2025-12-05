@@ -58,8 +58,6 @@ The model outputs a ranked list of projected players in CSV format for further a
 - Numerical projections require refinement but provide a strong baseline.  
 - CSV outputs include:
   - `FantasyProjections_2025.csv` – Ranked WR/TE projections.
-  - `Predictions2024_B.csv` – Detailed projection metrics.
-  - `BrandNewPredictions20244.csv` – Latest consolidated projections.  
 
 ---
 
