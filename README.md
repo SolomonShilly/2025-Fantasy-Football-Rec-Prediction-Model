@@ -62,9 +62,8 @@ The model outputs a ranked list of projected players in CSV format for further a
 ---
 
 ## Next Steps
-- Refine statistical projections to reduce deviation from actual results.
-- Explore alternative machine learning models or feature engineering techniques.
-- Expand analysis to include additional positional stats or advanced metrics.
+- The results need to be partnered with football knowledge because the model is omitting the possibility of a QB changing from season to season. A better way to capture unstable QB play and a way to identify rookie QBs and players entering contract years would be the finishing touches to this vision.
+- This along with a model tha captures my scouting logic will be what I am working on.
 
 ---
 
